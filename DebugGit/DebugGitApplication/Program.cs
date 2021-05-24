@@ -13,7 +13,7 @@ namespace DebugGitApplication
 		/// <param name="args"></param>
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Conflict started...");
+			Console.WriteLine("Test started...");
 			Console.ReadLine();
 		}
 	}
