@@ -18,14 +18,16 @@ namespace DebugGitApplication
 			Console.ReadLine();
 		}
 
-		private static IEnumerable<string> GetRandomStrings(int stringCount, int stringSymbolCount)
+		private static IEnumerable<string> GetRandomStrings(int stringCount, int stringSymbolCount = 10)
 		{
-			throw new NotImplementedException();
+			for (int i = 0; i < stringCount; i++)
+				yield return StringRandomizer.GetString(stringSymbolCount);
 		}
 
 		private static void ShowStringsOnConsole(IEnumerable<string> values)
 		{
-
+			foreach (var value in values)
+				Console.WriteLine(value);
 		}
 	}
 }
