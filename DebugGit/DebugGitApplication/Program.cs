@@ -18,7 +18,7 @@ namespace DebugGitApplication
 			Console.ReadLine();
 		}
 
-		private static IEnumerable<string> GetRandomStrings(int stringCount, int stringSymbolCount = 10)
+		private static IEnumerable<string> GetRandomStrings(int stringCount, int stringSymbolCount = 30)
 		{
 			for (int i = 0; i < stringCount; i++)
 				yield return StringRandomizer.GetString(stringSymbolCount);
