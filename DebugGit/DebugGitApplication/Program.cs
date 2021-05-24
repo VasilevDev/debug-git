@@ -2,6 +2,9 @@
 
 namespace DebugGitApplication
 {
+	/// <summary>
+	/// Program
+	/// </summary>
 	class Program
 	{
 		/// <summary>
